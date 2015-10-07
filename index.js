@@ -1,5 +1,7 @@
-module.exports = function counter(content) {
-  if (!content) return false;
+module.exports = function wordcount(content) {
+  if (!content) {
+    content = '';
+  }
   var content = content.replace(/\r\n/g, '\n');
   var totalCount = content.length; 
   var enArray = content.match(/\b\w+\b/g) || [];

@@ -1,6 +1,6 @@
 {
-  "name": "@ersinfotech/word-counter",
+  "name": "@ersinfotech/wordcount",
   "version": "0.1.0",
   "main": "index.js",
-  "author": "unknown, trimmed by TimLee",
+  "author": "TimLee"
 }
